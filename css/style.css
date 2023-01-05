@@ -80,7 +80,7 @@ margin-bottom: 30px;
 main{
     max-width: 1140px;
     margin: 0 auto;
-    text-align: center;
+    /* text-align: center; */
 
 }
 .about{
@@ -98,6 +98,7 @@ main{
     line-height: 48px;
     color: #181818;
     margin-bottom: 30px;
+    text-align: center;
         }
 
 .section--description{
@@ -109,8 +110,6 @@ margin-bottom: 30px;
 
 }
 
-.what-i-do{
-}
 
 .info--container{
 display: flex;
@@ -141,7 +140,7 @@ line-height: 30px;
 .skills--container{
     display: flex;
     text-align: left;
-    gap: 30px;
+    gap: 50px;
     
 }
 
@@ -172,6 +171,111 @@ color: #181818;
     font-size: 16px;
     line-height: 28px;
     color: #757575;
+}
 
+.resume{
+
+}
+
+.section--heading{margin-bottom: 80px;
+}
+
+.resume--content{
+    display: flex;
+    gap: 20px;
+
+}
+
+.resume--title{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.resume--item{
+
+}
+
+.title{
+    font-weight: 700;
+font-size: 25px;
+line-height: 34px;
+color: #474747;
+margin-bottom: 10px;
+}
+
+.sub--title{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+.resume--item{
+
+}
+
+.resume--description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 30px;
+    color: #757575;
+    max-width: 511px;
+
+}
+
+hr{
+    margin-bottom: 30px;
+}
+
+
+.resume--btn{
+    margin-top: 50px;
+    text-align: center;
+}
+
+footer{
+    background: #FFF8F3;
+
+}
+
+.contact{
+    padding: 130px 150px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.contact--title{
+    margin-bottom: 20px;
+}
+.contact--description{
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #474747;
+    width: 562px;
+    margin-bottom: 30px;
     
+}
+
+.contact input{
+    display: block;
+}
+
+.images a {
+    text-decoration: none;
+    margin-right: 25px;
+}
+
+.contact input[type="text"],input[type="email"],textarea {
+    padding:10px;
+    margin-bottom: 25px;
+    width: 100%;
+    border: none;
 }
